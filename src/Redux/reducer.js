@@ -3,7 +3,7 @@ import { GET_DATA_ERROR, GET_DATA_LOADING, GET_DATA_SUCCESS } from "./actionType
 const intitalState={
     isLoading:false,
     isError:false,
-    Todo:[]
+    todos:[]
 }
 
 export const reducer=(state=intitalState,{type,payload})=>{
@@ -18,7 +18,7 @@ export const reducer=(state=intitalState,{type,payload})=>{
       }
       case GET_DATA_SUCCESS: {
         return {
-          Todo: payload,
+          todos: payload,
           isLoading: false,
           isError: false,
         };

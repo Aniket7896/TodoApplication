@@ -1,6 +1,6 @@
 const TodoInput = () => {
   return (
-    <div>TodoInput</div>
+    <div></div>
   )
 }
 export default TodoInput

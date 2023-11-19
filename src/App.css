@@ -41,3 +41,8 @@ button{
   padding: 10px 30px;
   border:none;
 }
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
